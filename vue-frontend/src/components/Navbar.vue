@@ -37,10 +37,10 @@
       <div class="navbar-menu" :class="{ 'is-active': open }">
         <div class="navbar-end">
           <router-link class="navbar-item" @click.native="open = false" to="/" exact>
-            Overview
+            {{$t('Overview')}}
           </router-link>
           <router-link class="navbar-item" @click.native="open = false" to="/statistics">
-            Statistics
+            {{$t('Statistics')}}
           </router-link>
         </div>
       </div>

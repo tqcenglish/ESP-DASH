@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="column">
-            <h6 class="is-size-6 has-text-muted">{{card.name}}</h6>
+            <h6 class="is-size-6 has-text-muted">{{$t(card.name)}}</h6>
             <h2 class="is-size-4 has-text-dark has-text-weight-semibold">{{card.value}} <small class="is-size-6">{{card.symbol}}</small></h2>
           </div>
         </div>

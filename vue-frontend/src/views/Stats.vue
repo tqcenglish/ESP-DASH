@@ -3,23 +3,23 @@
     <div class="container" v-if="stats.enabled">
       <div class="card">
         <div class="card-content py-6">
-          <div class="px-5"><b>Hardware:</b> &nbsp; {{stats.hardware}}</div>
+          <div class="px-5"><b>{{$t('Hardware')}}:</b> &nbsp; {{stats.hardware}}</div>
           <hr class="my-4" style="height: 0px"/>
-          <div class="px-5"><b>SDK Version:</b> &nbsp; {{stats.sdk}}</div>
+          <div class="px-5"><b>{{$t('SDK Version')}}:</b> &nbsp; {{stats.sdk}}</div>
           <hr class="my-4" style="height: 0px"/>
-          <div class="px-5"><b>Chip ID:</b> &nbsp; {{stats.chipId}}</div>
+          <div class="px-5"><b>{{$t('Chip ID')}}:</b> &nbsp; {{stats.chipId}}</div>
           <hr class="my-4" style="height: 0px"/>
-          <div class="px-5"><b>Free Heap:</b> &nbsp; {{stats.freeHeap}} bytes</div>
+          <div class="px-5"><b>{{$t('Free Heap')}}:</b> &nbsp; {{stats.freeHeap}} bytes</div>
           <hr class="my-4" style="height: 0px"/>
           <div v-if="stats.heapFragmentation" class="px-5"><b>Heap Fragmentation:</b> &nbsp; {{stats.heapFragmentation}}</div>
           <hr v-if="stats.heapFragmentation"/>
-          <div class="px-5"><b>Sketch Hash:</b> &nbsp; {{stats.sketchHash}}</div>
+          <div class="px-5"><b>{{$t('Sketch Hash')}}:</b> &nbsp; {{stats.sketchHash}}</div>
           <hr class="my-4" style="height: 0px"/>
-          <div class="px-5"><b>MAC Address:</b> &nbsp; {{stats.macAddress}}</div>
+          <div class="px-5"><b>{{$t('MAC Address')}}:</b> &nbsp; {{stats.macAddress}}</div>
           <hr class="my-4" style="height: 0px"/>
-          <div class="px-5"><b>Connection Type:</b> &nbsp; {{getWifiMode}}</div>
+          <div class="px-5"><b>{{$t('Connection Type')}}:</b> &nbsp; {{getWifiMode}}</div>
           <hr class="my-4" style="height: 0px"/>
-          <div class="px-5"><b>Signal Level (RSSI):</b> &nbsp; {{stats.wifiSignal}}</div>
+          <div class="px-5"><b>{{$t('Signal Level (RSSI)')}}:</b> &nbsp; {{stats.wifiSignal}}</div>
         </div>
       </div>
     </div>

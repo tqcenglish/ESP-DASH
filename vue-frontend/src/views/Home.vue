@@ -19,7 +19,7 @@
         <div class="row">
           <div class="columns is-centered has-text-centered" style="font-weight: 400; font-size: 18px">
             <div class="column">
-              Loading
+              {{$t('Loading')}}
               <svg width="24px" height="24px" class="spinner" style="vertical-align: middle;" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                   <g id="Stockholm-icons-/-Code-/-Loading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="Group">

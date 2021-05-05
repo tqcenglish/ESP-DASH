@@ -1,0 +1,15 @@
+{
+    "Chip ID": "Chip ID",
+    "Connection Type": "Connection Type",
+    "Free Heap": "Free Heap",
+    "Hardware": "Hardware",
+    "Humidity": "Humidity",
+    "Loading": "Loading",
+    "MAC Address": "MAC Address",
+    "Overview": "Overview",
+    "SDK Version": "SDK Version",
+    "Signal Level (RSSI)": "Signal Level (RSSI)",
+    "Sketch Hash": "Sketch Hash",
+    "Statistics": "Statistics",
+    "Temperature": "Temperature"
+  }

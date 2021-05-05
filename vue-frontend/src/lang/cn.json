@@ -1,0 +1,15 @@
+{
+  "Chip ID": "芯片 ID",
+  "Connection Type": "连接类型",
+  "Free Heap": "剩余内存",
+  "Hardware": "硬件",
+  "Humidity": "湿度",
+  "Loading": "加载中",
+  "MAC Address": "MAC 地址",
+  "Overview": "概述",
+  "SDK Version": "SDK 版本",
+  "Signal Level (RSSI)": "信号强度 (RSSI)",
+  "Sketch Hash": "程序版本",
+  "Statistics": "统计",
+  "Temperature": "温度"
+}
